@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = "http://devs:8000/";
+const BASE_URL = "http://localhost:8000/";
 
 let service = {
     post: (request, callback) => {
