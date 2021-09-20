@@ -14,12 +14,15 @@ let service = {
         });
     },
     get: (request, callback) => {
+        document.getElementById('LoaderVue').classList.add("show");
         axios.get(BASE_URL + request.do, {
             params: request,
             headers: { "Content-Type": "application/x-www-form-urlencoded" }
         }).then((response) => {
+            document.getElementById('LoaderVue').classList.remove("show");
             callback(response.data);
         }).catch((error) => {
+            document.getElementById('LoaderVue').classList.remove("show");
             return Promise.reject(error);
         });
     }
