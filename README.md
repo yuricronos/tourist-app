@@ -26,3 +26,8 @@ The UI / UX implemented on this Tourist App was simple and easy to use that fit 
 
 Also the link that redirect to search engine is added as feature for getting more details about the place.
 
+
+## Demo Site
+
+Please see the demo site <a href="https://tourapp.carlroom.cc/" target="_blank">https://tourapp.carlroom.cc/</a>
+
