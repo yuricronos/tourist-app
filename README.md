@@ -1,3 +1,9 @@
+This web app provides information about the place in japan and weather condition on the
+quried city. It helps travelers going to japan for the first time to determine what
+places or tourist spot near by on the queried city.
+
+---
+
 ## Tourist API / Back-End
 
 Below are the api endpoints.
